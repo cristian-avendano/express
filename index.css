@@ -1,0 +1,76 @@
+.top{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 80px;
+}
+
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+}
+
+.principal{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+
+.formulario{
+    width: 400px;
+    height: 300px;
+    background-color: lightgrey;
+    z-index: 100;
+}
+
+.enca{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.enca > h1{
+    width: 350px;
+    height: 50px;
+    background-color:#18191f;
+    color: white;
+    text-align: center;
+}
+
+.enca > .cerrar{
+    font-size: 30px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+}
+.formulario > .form-control, .btn{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+}
+
+.center{
+    margin: 20px 0px;    
+}
