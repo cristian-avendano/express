@@ -1,0 +1,130 @@
+.general{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+
+/*contenido que encierra la barra lateral junto a su vista de opciones*/
+
+.contenido{
+    width: 100%;
+    height: calc(100% - 80px);  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* barra lateral de opciones */
+
+.lateral{
+    width: 80px;
+    height: 100%;
+    background-color: #18191f;
+}
+
+/*funciones barra lateral*/
+
+.estado{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+}
+
+.reporte{
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+}
+
+
+/*contenido opciones*/
+
+.lateral-opc{
+    width: calc(100% - 80px);
+    height: 100%;
+}
+
+/*contenido estado*/
+
+
+.estado-opc{   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    display: none;
+}
+
+/*contenedor informacion ultimo reporte*/
+.informacion{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-texto1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+.contenedor-texto2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+}
+
+/*atributos*/
+
+.id-reporte, .fecha-reporte, .hora-reporte{
+    width: 33.33%;
+}
+.estado-reporte, .dias-reporte{
+    width: 50%;
+}
+
+.id-reporte, .fecha-reporte, .hora-reporte, .estado-reporte, .dias-reporte{
+    height: 80px;
+    line-height: 80px;
+}
+
+.hora-reporte{
+    background-color: #fff;
+}
+
+/*contenido reporte*/
+
+.reporte-opc{
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.entradas{
+    width: 100%;
+    height: 80px;
+    background-color:green;
+}
+
+
+
+
