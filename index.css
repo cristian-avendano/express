@@ -78,7 +78,7 @@
     height: 80px;
     background-color: blue;
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 
@@ -124,6 +124,15 @@
     height: 80px;
     background-color:green;
 }
+
+/*busqueda*/
+
+
+.buscar{
+    display: flex;
+    width: 100%;
+}
+
 
 
 
